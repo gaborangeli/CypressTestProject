@@ -1,25 +1,36 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("homeList", () => {
+  return cy.get(".container .row .col-xs-12 .home-list");
+});
+
+/*
+Example of an upcoming update regarding avoiding repeating "cy.url().should("include", "url");".
+
+Cypress.Commands.add("checkCategoryUrl", (category) => {
+  const categoryUrls = {
+    Querying: "/commands/querying",
+    Traversal: "/commands/traversal",
+    Actions: "/commands/actions",
+    Window: "/commands/window",
+    Viewport: "/commands/viewport",
+    Location: "/commands/location",
+    Navigation: "/commands/navigation",
+    Assertions: "/commands/assertions",
+    Misc: "/commands/misc",
+    Connectors: "/commands/connectors",
+    Aliasing: "/commands/aliasing",
+    Wait: "/commands/wait",
+    "Network Requests": "/commands/network-requests",
+    Files: "/commands/files",
+    Storage: "/commands/storage",
+    Cookies: "/commands/cookies",
+    "Spies Stubs & Clocks": "/commands/spies-stubs-clocks",
+  };
+
+  const expectedUrl = categoryUrls[category];
+  if (!expectedUrl) {
+    throw new Error(`URL not found for category: ${category}`);
+  }
+
+  cy.url().should("include", expectedUrl);
+});
+*/
