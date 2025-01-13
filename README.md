@@ -1,7 +1,9 @@
-Custom codes for Cypress testing i made is in: 
+# Custom codes for Cypress testing i made is in: 
 
-CypressTestProject/cypress/support
-CypressTestProject/cypress/e2e/Tests
+# CypressTestProject/cypress/support
+# CypressTestProject/cypress/e2e/Tests
+
+
 
 # Kitchen Sink [![renovate-app badge][renovate-badge]][renovate-app] [![semantic-release][semantic-image] ][semantic-url]
 
