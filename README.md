@@ -3,6 +3,11 @@
 ### [CypressTestProject/cypress/support](https://github.com/gaborangeli/CypressTestProject/tree/main/cypress/e2e/Tests)
 ### [CypressTestProject/cypress/e2e/Tests](https://github.com/gaborangeli/CypressTestProject/tree/main/cypress/support)
 #
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Kitchen Sink [![renovate-app badge][renovate-badge]][renovate-app] [![semantic-release][semantic-image] ][semantic-url]
 
