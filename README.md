@@ -2,11 +2,11 @@
 
 ### CypressTestProject/cypress/support
 ### CypressTestProject/cypress/e2e/Tests
-
-
-
-
-
+| :----------------------------------------------------- |
+| :----------------------------------------------------- |
+| :----------------------------------------------------- |
+| :----------------------------------------------------- |
+| :----------------------------------------------------- |
 
 # Kitchen Sink [![renovate-app badge][renovate-badge]][renovate-app] [![semantic-release][semantic-image] ][semantic-url]
 
