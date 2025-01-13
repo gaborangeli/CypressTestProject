@@ -1,7 +1,7 @@
 # Custom codes for Cypress testing i made is in: 
 
-# CypressTestProject/cypress/support
-# CypressTestProject/cypress/e2e/Tests
+### CypressTestProject/cypress/support
+### CypressTestProject/cypress/e2e/Tests
 
 
 
